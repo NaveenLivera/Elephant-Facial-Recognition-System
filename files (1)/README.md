@@ -1,4 +1,4 @@
-# 🐘 Elephant Face ID & NFT Generation System
+# Elephant Face ID & NFT Generation System
 
 An advanced computer vision system for individual elephant identification with integrated NFT generation capabilities. This project combines wildlife conservation technology with blockchain-based digital art to support elephant preservation efforts.
 
@@ -6,7 +6,7 @@ An advanced computer vision system for individual elephant identification with i
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -20,7 +20,7 @@ An advanced computer vision system for individual elephant identification with i
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🌟 Overview
+## Overview
 
 This system uses advanced computer vision techniques to identify individual elephants from photographs, creating unique digital identities for each animal. The project serves both conservation research and blockchain-based fundraising through NFT generation.
 
@@ -30,7 +30,7 @@ This system uses advanced computer vision techniques to identify individual elep
 - Conservation research support
 - NFT-based conservation fundraising
 
-## ✨ Features
+## Features
 
 ### Face Detection & Recognition
 - **Multi-Method Detection**: Contour-based, edge-based, and fallback detection strategies
@@ -56,7 +56,7 @@ This system uses advanced computer vision techniques to identify individual elep
 - **Augmentation Grid**: Visual comparison of all augmented views
 - **Detection Steps**: Visualization of face detection methods
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ pillow>=8.0.0
 matplotlib>=3.3.0
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Basic Usage
 
@@ -150,7 +150,7 @@ print(f"Processed {len(results)} images")
 print(f"Found {len(system.elephants_db)} unique elephants")
 ```
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -219,7 +219,7 @@ print(f"Found {len(system.elephants_db)} unique elephants")
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📁 Output Structure
+## Output Structure
 
 ```
 project_root/
@@ -254,7 +254,7 @@ project_root/
     └── ELE_1234_5678_90ab_cdef_nft_info.json
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Face Detection Methods
 
@@ -312,7 +312,7 @@ elephants_db = {
 }
 ```
 
-## 📊 Thesis Visualization
+## Thesis Visualization
 
 The system generates comprehensive visualizations for academic documentation:
 
@@ -336,7 +336,7 @@ Visual documentation of the face detection pipeline:
 - Edge detection visualization
 - Final detected faces
 
-## 🎨 NFT Generation
+## NFT Generation
 
 ### Artwork Creation
 - Canvas size: 1024×1024 pixels
@@ -378,7 +378,7 @@ The system prepares NFTs for:
 - OpenSea compatibility
 - Metadata standards compliance
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -398,26 +398,14 @@ Contributions are welcome! Please follow these guidelines:
 - **Dataset Expansion**: More diverse elephant images
 - **Testing**: Unit tests and integration tests
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenCV community for computer vision tools
-- scikit-learn for machine learning utilities
-- Conservation organizations for inspiration
-- African elephant conservation efforts
-
-## 📧 Contact
+## Contact
 
 For questions, suggestions, or collaboration opportunities:
 
 - **GitHub Issues**: [Create an issue](https://github.com/yourusername/elephant-face-id-nft/issues)
-- **Email**: your.email@example.com
-- **Website**: https://your-website.com
+- **Email**: naveen.livera@gmail.com
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 - [ ] Deep learning model integration (ResNet, EfficientNet)
 - [ ] Real-time video processing
@@ -430,7 +418,7 @@ For questions, suggestions, or collaboration opportunities:
 - [ ] Cloud deployment (AWS, Azure, GCP)
 - [ ] Augmented reality elephant viewing
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Identification Accuracy
 - **True Positive Rate**: >85% (with quality images)
@@ -443,7 +431,3 @@ For questions, suggestions, or collaboration opportunities:
 - **Metadata Standards**: ERC-721 compliant
 
 ---
-
-**Made with ❤️ for elephant conservation**
-
-*Star ⭐ this repository if you find it helpful!*
