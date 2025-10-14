@@ -43,7 +43,7 @@ def example_single_image():
         if not result['is_new']:
             print(f"  Match confidence: {result['similarity']:.2%}")
     else:
-        print("\n✗ FAILED: Could not process image")
+        print("\n FAILED: Could not process image")
 
 
 def example_batch_processing():
@@ -56,7 +56,7 @@ def example_batch_processing():
     dataset_path = "./elephant_images"
     
     if not Path(dataset_path).exists():
-        print(f"\n⚠ Dataset folder not found: {dataset_path}")
+        print(f"\n Dataset folder not found: {dataset_path}")
         print("Creating sample directory...")
         Path(dataset_path).mkdir(exist_ok=True)
         print(f"Please add elephant images to: {dataset_path}")
@@ -68,7 +68,7 @@ def example_batch_processing():
     results = system.process_dataset()
     
     # Display summary
-    print(f"\n✓ BATCH PROCESSING COMPLETE!")
+    print(f"\n BATCH PROCESSING COMPLETE!")
     print(f"  Images processed: {len(results)}")
     print(f"  Unique elephants: {len(system.elephants_db)}")
     
@@ -90,7 +90,7 @@ def example_nft_generation():
     results = system.process_dataset()
     
     if not system.elephants_db:
-        print("\n⚠ No elephants in database. Process some images first!")
+        print("\n No elephants in database. Process some images first!")
         return
     
     # Initialize NFT generator
@@ -103,9 +103,9 @@ def example_nft_generation():
     for elephant_id in system.elephants_db.keys():
         nft_info = nft_gen.generate_nft_from_elephant_id(elephant_id)
         nft_results.append(nft_info)
-        print(f"  ✓ NFT created for {elephant_id}")
+        print(f" NFT created for {elephant_id}")
     
-    print(f"\n✓ NFT GENERATION COMPLETE!")
+    print(f"\n NFT GENERATION COMPLETE!")
     print(f"  NFTs created: {len(nft_results)}")
     print(f"  Output directory: {nft_gen.nft_output_dir}")
     print(f"  Images: {nft_gen.images_dir}")
@@ -126,7 +126,7 @@ def example_custom_configuration():
     
     # Adjust match threshold for stricter matching
     system.match_threshold = 0.65  # Default is 0.55
-    print(f"\n✓ Match threshold set to: {system.match_threshold}")
+    print(f"\n Match threshold set to: {system.match_threshold}")
     
     # Process with custom settings
     image_path = "path/to/elephant.jpg"
@@ -145,7 +145,7 @@ def example_database_inspection():
     system = ElephantFaceIDDetailed()
     
     if not system.elephants_db:
-        print("\n⚠ Database is empty. Process some images first!")
+        print("\n Database is empty. Process some images first!")
         return
     
     # Database statistics
@@ -153,13 +153,13 @@ def example_database_inspection():
     total_embeddings = sum(len(embs) for embs in system.elephants_db.values())
     avg_embeddings = total_embeddings / total_elephants if total_elephants > 0 else 0
     
-    print(f"\n📊 DATABASE STATISTICS:")
+    print(f"\n DATABASE STATISTICS:")
     print(f"  Total elephants: {total_elephants}")
     print(f"  Total embeddings: {total_embeddings}")
     print(f"  Average embeddings per elephant: {avg_embeddings:.1f}")
     
     # Show details for each elephant
-    print(f"\n🐘 ELEPHANT DETAILS:")
+    print(f"\n ELEPHANT DETAILS:")
     for elephant_id, embeddings in system.elephants_db.items():
         print(f"  • {elephant_id}")
         print(f"    - Embeddings: {len(embeddings)}")
@@ -207,7 +207,7 @@ def main():
         except Exception as e:
             print(f"\n✗ Error: {str(e)}")
     else:
-        print("\n⚠ Invalid choice!")
+        print("\n Invalid choice!")
     
     print("\n" + "="*60)
     print("Examples completed!")
