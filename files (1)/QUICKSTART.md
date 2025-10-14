@@ -1,8 +1,8 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 Get up and running with the Elephant Face ID & NFT System in 5 minutes!
 
-## 📦 Installation (2 minutes)
+## Installation (2 minutes)
 
 ### Step 1: Clone the Repository
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 That's it! You're ready to go.
 
-## 🎯 Basic Usage (3 minutes)
+## Basic Usage (3 minutes)
 
 ### Option 1: Process Single Image
 
@@ -70,7 +70,7 @@ nft_info = nft_gen.generate_nft_from_elephant_id(
 print(f"NFT created: {nft_info['image_path']}")
 ```
 
-## 📂 Prepare Your Data
+## Prepare Your Data
 
 ### Directory Structure
 
@@ -96,7 +96,7 @@ my_project/
 - **Content**: Clear view of elephant face
 - **Lighting**: Well-lit images work best
 
-## 🔍 Understanding the Output
+## Understanding the Output
 
 ### Console Output
 
@@ -145,7 +145,7 @@ elephant_nfts/
     └── ELE_a3f2_9c4d_1b7e_8f03_metadata.json
 ```
 
-## 🎨 Example: Complete Workflow
+## Example: Complete Workflow
 
 ```python
 # Complete example: Process images and generate NFTs
@@ -176,7 +176,7 @@ print(f"NFTs generated: {len(elephant_system.elephants_db)}")
 print("="*60)
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Adjust Match Threshold
 
@@ -208,7 +208,7 @@ nft_info = nft_gen.create_nft_image(
 system = ElephantFaceIDDetailed(model_dir="./my_custom_models")
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "No faces detected"
 
@@ -235,21 +235,21 @@ This is normal on first run. The system creates a new database automatically.
 - Ensure consistent lighting across images
 - Use higher resolution images
 
-## 📊 Quick Performance Tips
+## Quick Performance Tips
 
 1. **Use good quality images** (>800×800 pixels)
 2. **Consistent lighting** improves matching
 3. **Multiple angles** per elephant improve accuracy
 4. **Regular database cleanup** with `merge_similar_elephants()`
 
-## 🔗 Next Steps
+## Next Steps
 
 - Read the full [README.md](README.md) for detailed documentation
 - Check [CONTRIBUTING.md](CONTRIBUTING.md) to contribute
 - Explore example notebooks (coming soon)
 - Join our community discussions
 
-## 💡 Pro Tips
+## Pro Tips
 
 ```python
 # Tip 1: Process in batches for large datasets
@@ -277,7 +277,7 @@ avg_embeddings = total_embeddings / len(system.elephants_db)
 print(f"Average embeddings per elephant: {avg_embeddings:.1f}")
 ```
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - **Computer Vision Basics**: Understanding face detection
 - **Feature Extraction**: Texture and anatomical features
@@ -288,4 +288,4 @@ print(f"Average embeddings per elephant: {avg_embeddings:.1f}")
 
 **Need help?** Open an issue on GitHub or check the discussions!
 
-Happy elephant identifying! 🐘
+Happy elephant identifying! 
