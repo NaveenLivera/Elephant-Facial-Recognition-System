@@ -1,8 +1,8 @@
-# 📋 Files Overview
+# Files Overview
 
 This document explains all the files in your GitHub repository and their purposes.
 
-## 🎯 Essential Files
+## Essential Files
 
 ### README.md
 **Purpose:** Main documentation file  
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Documentation Files
+## Documentation Files
 
 ### QUICKSTART.md
 **Purpose:** Quick 5-minute getting started guide  
@@ -157,7 +157,7 @@ python example.py
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 elephant-face-id-nft/
@@ -195,7 +195,7 @@ elephant-face-id-nft/
 
 ---
 
-## 🚀 Getting Started Checklist
+## Getting Started Checklist
 
 Use this checklist when setting up your repository:
 
@@ -224,7 +224,7 @@ Use this checklist when setting up your repository:
 
 ---
 
-## 📝 Customization Guide
+## Customization Guide
 
 ### Must Update
 1. **README.md**
@@ -253,7 +253,7 @@ Use this checklist when setting up your repository:
 
 ---
 
-## 🎨 File Usage Tips
+## File Usage Tips
 
 ### For Users
 **Just want to use the system?**
@@ -277,7 +277,7 @@ Use this checklist when setting up your repository:
 
 ---
 
-## 🔄 Maintenance Schedule
+## Maintenance Schedule
 
 ### Regular (Every Commit)
 - Update code files
@@ -301,7 +301,7 @@ Use this checklist when setting up your repository:
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **Q: Which files do I need to edit before publishing?**  
 A: README.md, setup.py, and LICENSE (replace placeholder text with your info)
@@ -320,7 +320,7 @@ A: No, .gitignore already excludes them. Models, outputs, and caches shouldn't b
 
 ---
 
-## 📞 Need Help?
+## Need Help?
 
 - **README questions**: Check QUICKSTART.md
 - **Contributing**: Read CONTRIBUTING.md
@@ -336,4 +336,4 @@ A: No, .gitignore already excludes them. Models, outputs, and caches shouldn't b
 4. **CONTRIBUTING.md** - If you want to contribute
 5. **Other docs** - As needed
 
-Happy coding! 🐘
+Happy coding! 
